@@ -1,4 +1,4 @@
-package com.yt8492.todo
+package com.yt8492.todo.desktop
 
 import androidx.compose.desktop.Window
 import androidx.compose.material.MaterialTheme
