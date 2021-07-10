@@ -1,61 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13b397a-a48f-4c0c-b6d3-374ebac9b65a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/common_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/desktop_jvm_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/todoCompose.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/todoCompose.jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/todoCompose.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build/kotlin/compileKotlinJvm/build-history.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/Navigation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/NavigationComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/Todo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/TodoRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/TodoRootComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/page/TodoCreateComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/page/TodoDetailComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/page/TodoListComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/component/TodoItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoCreatePage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoDetailPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoListPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoRootPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desktop/build/compose/default-icons/0.5.0-build235/icon-mac.icns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/com/yt8492/todo/desktop/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/todoCompose_jvm_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/todo_jvm_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/Navigation.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/NavigationComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/Todo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/TodoRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/TodoRootComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/page/TodoCreateComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/page/TodoDetailComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/page/TodoListComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/ui/component/TodoItem.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoCreatePage.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoDetailPage.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoListPage.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoRootPage.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmMain/kotlin/com/yt8492/todo/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +27,7 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/yt8492/.android/avd/Pixel_4_API_S.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -92,11 +55,29 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="desktop" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="desktop" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="desktop" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="compose desktop" type="c8890929:TasksNode$1" />
               </path>
@@ -149,11 +130,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -167,16 +150,63 @@
       <recent name="com.yt8492.todo" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.todoCompose:desktop [run]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Android App.android">
+    <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="todoCompose.android" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="todoCompose:desktop [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -244,6 +274,13 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="todo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,6 +288,33 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="todo" />
       <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,6 +345,7 @@
       <workItem from="1625860851070" duration="3533000" />
       <workItem from="1625865053314" duration="368000" />
       <workItem from="1625865540968" duration="782000" />
+      <workItem from="1625870905739" duration="136000" />
     </task>
     <servers />
   </component>

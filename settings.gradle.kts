@@ -7,3 +7,4 @@ pluginManagement {
 rootProject.name = "todoCompose"
 include("common")
 include("desktop")
+include("android")

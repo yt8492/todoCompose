@@ -4,6 +4,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
+    id("com.android.library")
+    id("kotlin-parcelize")
 }
 
 repositories {
@@ -12,9 +14,8 @@ repositories {
 }
 
 kotlin {
-    jvm {
-        withJava()
-    }
+    jvm()
+    android()
 
     sourceSets {
         val commonMain by getting {
@@ -32,4 +33,25 @@ kotlin {
 
 tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "11"
+}
+
+android {
+    compileSdkVersion(30)
+
+    defaultConfig {
+        minSdkVersion(23)
+        targetSdkVersion(30)
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        named("main") {
+            manifest.srcFile("src/androidMain/AndroidManifest.xml")
+            res.srcDirs("src/androidMain/res")
+        }
+    }
 }
