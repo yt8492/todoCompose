@@ -1,12 +1,11 @@
-package com.yt8492.todo.common
+package com.yt8492.todo.common.bloc
 
 import com.arkivanov.decompose.ComponentContext
 import com.arkivanov.decompose.pop
 import com.arkivanov.decompose.push
 import com.arkivanov.decompose.router
-import com.yt8492.todo.common.page.TodoCreateComponent
-import com.yt8492.todo.common.page.TodoDetailComponent
-import com.yt8492.todo.common.page.TodoListComponent
+import com.yt8492.todo.common.Navigation
+import com.yt8492.todo.common.NavigationComponent
 
 class TodoRootComponent(
     componentContext: ComponentContext

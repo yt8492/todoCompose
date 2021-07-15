@@ -1,4 +1,4 @@
-package com.yt8492.todo.common
+package com.yt8492.todo.common.data
 
 object TodoRepository {
     private var id = 0

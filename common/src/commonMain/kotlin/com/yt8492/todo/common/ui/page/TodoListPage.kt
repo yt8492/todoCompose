@@ -22,7 +22,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
-import com.yt8492.todo.common.page.TodoListComponent
+import com.yt8492.todo.common.bloc.TodoListComponent
 import com.yt8492.todo.common.ui.component.TodoItem
 
 @Composable

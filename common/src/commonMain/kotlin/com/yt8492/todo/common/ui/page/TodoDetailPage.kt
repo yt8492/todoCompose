@@ -24,7 +24,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.yt8492.todo.common.page.TodoDetailComponent
+import com.yt8492.todo.common.bloc.TodoDetailComponent
 
 @Composable
 fun TodoDetailPage(component: TodoDetailComponent) {

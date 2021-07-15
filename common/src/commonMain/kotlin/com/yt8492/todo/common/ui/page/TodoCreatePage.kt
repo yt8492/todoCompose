@@ -19,7 +19,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.yt8492.todo.common.page.TodoCreateComponent
+import com.yt8492.todo.common.bloc.TodoCreateComponent
 
 @Composable
 fun TodoCreatePage(component: TodoCreateComponent) {

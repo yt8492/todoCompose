@@ -2,10 +2,10 @@ package com.yt8492.todo.common.ui.page
 
 import androidx.compose.runtime.Composable
 import com.arkivanov.decompose.extensions.compose.jetbrains.Children
-import com.yt8492.todo.common.TodoRootComponent
-import com.yt8492.todo.common.page.TodoCreateComponent
-import com.yt8492.todo.common.page.TodoDetailComponent
-import com.yt8492.todo.common.page.TodoListComponent
+import com.yt8492.todo.common.bloc.TodoRootComponent
+import com.yt8492.todo.common.bloc.TodoCreateComponent
+import com.yt8492.todo.common.bloc.TodoDetailComponent
+import com.yt8492.todo.common.bloc.TodoListComponent
 
 @Composable
 fun TodoRootPage(
