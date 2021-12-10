@@ -1,27 +1,42 @@
 package com.yt8492.todo.common.data
 
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
 object TodoRepository {
     private var id = 0
-    private val todoMap = mutableMapOf<Int, Todo>()
+    private val _todoFlow = MutableStateFlow(listOf<Todo>())
+    val todoFlow: StateFlow<List<Todo>> get() = _todoFlow
 
     fun findById(todoId: Int): Todo? {
-        return todoMap[todoId]
+        return _todoFlow.value.find {
+            it.id == todoId
+        }
     }
 
     fun findAll(): List<Todo> {
-        return todoMap.map { it.value }
+        return _todoFlow.value
     }
 
     fun create(todoText: String) {
-        todoMap[id] = Todo(id, todoText)
+        _todoFlow.value = _todoFlow.value + Todo(id, todoText)
         id++
     }
 
     fun delete(todoId: Int) {
-        todoMap.remove(todoId)
+        _todoFlow.value = _todoFlow.value.filter {
+            it.id == todoId
+        }
     }
 
     fun edit(todo: Todo) {
-        todoMap[todo.id] = todo
+        val todos = _todoFlow.value.toMutableList()
+        val i = todos.indexOfFirst {
+            it.id == todo.id
+        }
+        if (i != -1) {
+            todos[i] = todo
+        }
+        _todoFlow.value = todos
     }
 }

@@ -27,7 +27,7 @@ import com.yt8492.todo.common.ui.component.TodoItem
 
 @Composable
 fun TodoListPage(component: TodoListComponent) {
-    val todoList by remember { component.todoList }
+    val todoList = component.todoList.value
 
     Scaffold(
         topBar = {
@@ -36,9 +36,6 @@ fun TodoListPage(component: TodoListComponent) {
                     Text("Todo List")
                 },
                 actions = {
-                    IconButton(onClick = component::refresh) {
-                        Icon(Icons.Outlined.Refresh, "refresh todos")
-                    }
                     IconButton(onClick = component.navigateToCreate) {
                         Icon(Icons.Outlined.Add, "create new todo")
                     }

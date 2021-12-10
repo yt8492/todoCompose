@@ -26,6 +26,7 @@ kotlin {
                 api(compose.material)
                 api("com.arkivanov.decompose:decompose:0.2.6")
                 api("com.arkivanov.decompose:extensions-compose-jetbrains:0.2.6")
+                api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
             }
         }
     }
