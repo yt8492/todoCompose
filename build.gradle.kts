@@ -2,7 +2,7 @@ group = "com.yt8492"
 version = "1.0"
 
 buildscript {
-    val kotlin_version by extra("1.5.10")
+    val kotlin_version by extra("1.5.31")
     repositories {
         google()
         mavenCentral()
@@ -10,9 +10,9 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:7.0.0-beta05")
-        classpath("org.jetbrains.compose:compose-gradle-plugin:0.5.0-build235")
-        classpath(kotlin("gradle-plugin", version = "1.5.10"))
+        classpath("com.android.tools.build:gradle:7.0.1")
+        classpath("org.jetbrains.compose:compose-gradle-plugin:1.0.0")
+        classpath(kotlin("gradle-plugin", version = "1.5.31"))
     }
 }
 
