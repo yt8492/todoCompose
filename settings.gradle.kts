@@ -8,3 +8,4 @@ rootProject.name = "todoCompose"
 include("common")
 include("desktop")
 include("android")
+include("web")
