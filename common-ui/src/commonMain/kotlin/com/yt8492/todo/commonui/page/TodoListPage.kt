@@ -1,4 +1,4 @@
-package com.yt8492.todo.common.ui.page
+package com.yt8492.todo.commonui.page
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -14,16 +14,13 @@ import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Add
-import androidx.compose.material.icons.outlined.Refresh
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import com.yt8492.todo.common.bloc.TodoListComponent
-import com.yt8492.todo.common.ui.component.TodoItem
+import com.yt8492.todo.commonui.component.TodoItem
 
 @Composable
 fun TodoListPage(component: TodoListComponent) {

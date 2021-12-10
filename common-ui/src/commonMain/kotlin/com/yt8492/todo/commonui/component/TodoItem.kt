@@ -1,4 +1,4 @@
-package com.yt8492.todo.common.ui.component
+package com.yt8492.todo.commonui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column

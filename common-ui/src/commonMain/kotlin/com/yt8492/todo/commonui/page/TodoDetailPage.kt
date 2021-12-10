@@ -1,4 +1,4 @@
-package com.yt8492.todo.common.ui.page
+package com.yt8492.todo.commonui.page
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,7 +18,6 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.ArrowBack
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -28,7 +27,7 @@ import com.yt8492.todo.common.bloc.TodoDetailComponent
 
 @Composable
 fun TodoDetailPage(component: TodoDetailComponent) {
-    val todo by remember { component.todo }
+    val todo = remember { component.todo }.value
     Scaffold(
         topBar = {
             TopAppBar {

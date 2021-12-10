@@ -1,7 +1,7 @@
 package com.yt8492.todo.common
 
-import com.arkivanov.decompose.statekeeper.Parcelable
-import com.arkivanov.decompose.statekeeper.Parcelize
+import com.arkivanov.essenty.parcelable.Parcelable
+import com.arkivanov.essenty.parcelable.Parcelize
 
 sealed interface Navigation : Parcelable {
 

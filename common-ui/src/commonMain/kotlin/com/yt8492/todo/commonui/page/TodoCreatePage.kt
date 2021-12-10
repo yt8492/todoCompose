@@ -1,4 +1,4 @@
-package com.yt8492.todo.common.ui.page
+package com.yt8492.todo.commonui.page
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

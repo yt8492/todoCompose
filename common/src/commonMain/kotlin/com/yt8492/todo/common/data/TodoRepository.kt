@@ -25,7 +25,7 @@ object TodoRepository {
 
     fun delete(todoId: Int) {
         _todoFlow.value = _todoFlow.value.filter {
-            it.id == todoId
+            it.id != todoId
         }
     }
 

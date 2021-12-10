@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="common-ui-jvm">
+    <output-path>$PROJECT_DIR$/common-ui/build/libs</output-path>
+    <root id="archive" name="common-ui-jvm.jar">
+      <element id="module-output" name="todoCompose.common-ui.jvmMain" />
+    </root>
+  </artifact>
+</component>

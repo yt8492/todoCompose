@@ -1,9 +1,9 @@
 package com.yt8492.todo.common.bloc
 
 import com.arkivanov.decompose.ComponentContext
-import com.arkivanov.decompose.pop
-import com.arkivanov.decompose.push
-import com.arkivanov.decompose.router
+import com.arkivanov.decompose.router.pop
+import com.arkivanov.decompose.router.push
+import com.arkivanov.decompose.router.router
 import com.yt8492.todo.common.Navigation
 import com.yt8492.todo.common.NavigationComponent
 
@@ -14,7 +14,9 @@ class TodoRootComponent(
     private val router = router<Navigation, NavigationComponent>(
         initialConfiguration = Navigation.List,
         handleBackButton = true,
-        childFactory = ::childFactory
+        childFactory = { configuration, componentContext ->
+            childFactory(configuration, componentContext)
+        },
     )
 
     val routerState = router.state

@@ -1,4 +1,4 @@
-package com.yt8492.todo.common.ui.page
+package com.yt8492.todo.commonui.page
 
 import androidx.compose.runtime.Composable
 import com.arkivanov.decompose.extensions.compose.jetbrains.Children

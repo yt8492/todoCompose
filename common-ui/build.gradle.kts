@@ -1,3 +1,4 @@
+import org.jetbrains.compose.compose
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -15,17 +16,16 @@ repositories {
 kotlin {
     jvm()
     android()
-    js(IR) {
-        browser()
-    }
 
     sourceSets {
         val commonMain by getting {
             dependencies {
+                implementation(project(":common"))
                 implementation(kotlin("stdlib-common"))
+                api("com.arkivanov.decompose:extensions-compose-jetbrains:0.4.0")
                 api(compose.runtime)
-                api("com.arkivanov.decompose:decompose:0.4.0")
-                api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+                api(compose.foundation)
+                api(compose.material)
             }
         }
     }
