@@ -1,7 +1,11 @@
 package com.yt8492.todo.web.ui.page
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import app.softwork.routingcompose.Router
 import com.yt8492.todo.common.bloc.TodoListComponent
+import com.yt8492.todo.common.data.Todo
+import com.yt8492.todo.common.data.TodoRepository
 import com.yt8492.todo.web.ui.component.Divider
 import com.yt8492.todo.web.ui.component.TodoItem
 import org.jetbrains.compose.web.css.*
@@ -10,65 +14,16 @@ import org.jetbrains.compose.web.dom.Div
 import org.jetbrains.compose.web.dom.Text
 
 @Composable
-fun TodoListPage(component: TodoListComponent) {
-    val todoList = component.todoList.value
-
-    Div(
-        attrs = {
-            style {
-                width(100.percent)
-                height(100.percent)
-                display(DisplayStyle.Flex)
-                flexDirection(FlexDirection.Column)
-            }
+fun TodoListPage() {
+    val router = Router.current
+    val todoList = TodoRepository.todoFlow.collectAsState().value
+    TodoListTemplate(
+        todoList = todoList,
+        onClickTodo = {
+            router.navigate("/${it.id}")
         },
-    ) {
-        Div(
-            attrs = {
-                style {
-                    width(100.percent)
-                    height(56.px)
-                    display(DisplayStyle.Flex)
-                    flexDirection(FlexDirection.Row)
-                    justifyContent(JustifyContent.SpaceBetween)
-                }
-            },
-        ) {
-            Text("Todo List")
-            Button(
-                attrs = {
-                    onClick {
-                        component.navigateToCreate()
-                    }
-                }
-            ) {
-                Text("+")
-            }
+        onClickCreate = {
+            router.navigate("/create")
         }
-        if (todoList.isEmpty()) {
-            Div(
-                attrs = {
-                    style {
-                        width(100.percent)
-                        height(100.percent)
-                        display(DisplayStyle.Flex)
-                        justifyContent(JustifyContent.Center)
-                        alignItems(AlignItems.Center)
-                        fontSize(24.px)
-                    }
-                },
-            ) {
-                Text("Todo is empty.")
-            }
-        } else {
-            todoList.forEachIndexed { i, todo ->
-                TodoItem(todo) {
-                    component.navigateToDetail(todo.id)
-                }
-                if (i < todoList.lastIndex) {
-                    Divider()
-                }
-            }
-        }
-    }
+    )
 }

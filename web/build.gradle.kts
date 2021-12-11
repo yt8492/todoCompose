@@ -30,6 +30,7 @@ kotlin {
         val jsMain by getting {
             dependencies {
                 implementation(project(":common"))
+                implementation("app.softwork:routing-compose:0.1.3")
                 implementation(compose.web.core)
                 implementation(compose.runtime)
             }

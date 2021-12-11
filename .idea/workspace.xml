@@ -10,7 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13b397a-a48f-4c0c-b6d3-374ebac9b65a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_js_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_js_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/web/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/jsMain/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/jsMain/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoCreatePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoCreateTemplate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoDetailPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoDetailPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoListPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoListPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoRootPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page/TodoRootPage.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +189,7 @@
       <recent name="com.yt8492.todo" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.todoCompose:desktop [run]">
+  <component name="RunManager" selected="Gradle.todoCompose:web [jsBrowserProductionWebpack]">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="todoCompose.android" />
       <option name="DEPLOY" value="true" />
@@ -395,8 +402,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.todoCompose:desktop [run]" />
         <item itemvalue="Gradle.todoCompose:web [jsBrowserProductionWebpack]" />
+        <item itemvalue="Gradle.todoCompose:desktop [run]" />
         <item itemvalue="Gradle.todoCompose:web [compileKotlinJs]" />
         <item itemvalue="Gradle.untitled [run]" />
         <item itemvalue="Gradle.untitled [runDistributable]" />
