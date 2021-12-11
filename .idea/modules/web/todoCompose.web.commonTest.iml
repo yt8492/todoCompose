@@ -10,5 +10,4 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.5.31" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="todoCompose.web.commonMain" />
 </module>

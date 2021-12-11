@@ -15,13 +15,21 @@ repositories {
 
 kotlin {
     js(IR) {
-        browser()
+        browser {
+            webpackTask {
+                outputFileName = "main.js"
+            }
+            runTask {
+                outputFileName = "main.js"
+            }
+        }
+        binaries.executable()
     }
 
     sourceSets {
         val jsMain by getting {
             dependencies {
-//                implementation(project(":common"))
+                implementation(project(":common"))
                 implementation(compose.web.core)
                 implementation(compose.runtime)
             }

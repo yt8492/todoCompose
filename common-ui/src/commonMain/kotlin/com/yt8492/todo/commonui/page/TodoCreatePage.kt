@@ -25,18 +25,16 @@ import com.yt8492.todo.common.bloc.TodoCreateComponent
 fun TodoCreatePage(component: TodoCreateComponent) {
     Scaffold(
         topBar = {
-            TopAppBar {
-                TopAppBar(
-                    title = {
-                        Text("Todo Create")
-                    },
-                    navigationIcon = {
-                        IconButton(onClick = component.backToList) {
-                            Icon(Icons.Outlined.ArrowBack, "back to list")
-                        }
+            TopAppBar(
+                title = {
+                    Text("Todo Create")
+                },
+                navigationIcon = {
+                    IconButton(onClick = component.backToList) {
+                        Icon(Icons.Outlined.ArrowBack, "back to list")
                     }
-                )
-            }
+                }
+            )
         }
     ) {
         val (todoText, updateText) = remember { mutableStateOf("") }

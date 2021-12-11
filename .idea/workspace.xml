@@ -10,30 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13b397a-a48f-4c0c-b6d3-374ebac9b65a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/common_js.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/common_ui_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common-ui-ui/todoCompose.common-ui-ui.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/todoCompose.common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/web/todoCompose.web.commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/web/todoCompose.web.commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/web/todoCompose.web.jsMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/web/todoCompose.web.jsTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/common_jvm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/common_jvm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/yt8492/todo/android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/yt8492/todo/android/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/Navigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/Navigation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/bloc/TodoRootComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/bloc/TodoRootComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/component/TodoItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common-ui/src/commonMain/kotlin/com/yt8492/todo/commonui/component/TodoItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoCreatePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common-ui/src/commonMain/kotlin/com/yt8492/todo/commonui/page/TodoCreatePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoDetailPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common-ui/src/commonMain/kotlin/com/yt8492/todo/commonui/page/TodoDetailPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoListPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common-ui/src/commonMain/kotlin/com/yt8492/todo/commonui/page/TodoListPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common/ui/page/TodoRootPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common-ui/src/commonMain/kotlin/com/yt8492/todo/commonui/page/TodoRootPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/com/yt8492/todo/desktop/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/jvmMain/kotlin/com/yt8492/todo/desktop/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +38,9 @@
         <task path="$PROJECT_DIR$/desktop">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/web">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -71,20 +51,59 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="todoCompose" type="f1a62948:ProjectNode" />
-                <item name="desktop" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="todoCompose" type="f1a62948:ProjectNode" />
-                <item name="desktop" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="todoCompose" type="f1a62948:ProjectNode" />
-                <item name="desktop" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="compose desktop" type="c8890929:TasksNode$1" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="dukat" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="kotlin browser" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="nodejs" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todoCompose" type="f1a62948:ProjectNode" />
+                <item name="web" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -137,7 +156,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -145,12 +164,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui/page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/jsMain/kotlin" />
+      <recent name="$PROJECT_DIR$/web/src/jsMain/kotlin/com/yt8492/todo/web/ui" />
       <recent name="$PROJECT_DIR$/common-ui/src/commonMain/kotlin/com/yt8492/todo/common-ui" />
       <recent name="$PROJECT_DIR$/common/src/commonMain/kotlin/com/yt8492/todo/common" />
       <recent name="$PROJECT_DIR$/desktop/src/jvmMain" />
-      <recent name="$PROJECT_DIR$/desktop" />
-      <recent name="$PROJECT_DIR$/src/commonMain/kotlin/com/yt8492/todo/common/ui/page" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.yt8492.todo.common.page" />
@@ -160,7 +182,7 @@
       <recent name="com.yt8492.todo" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.android">
+  <component name="RunManager" selected="Gradle.todoCompose:desktop [run]">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="todoCompose.android" />
       <option name="DEPLOY" value="true" />
@@ -231,6 +253,48 @@
         <option name="taskNames">
           <list>
             <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="todoCompose:web [compileKotlinJs]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileKotlinJs" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="todoCompose:web [jsBrowserProductionWebpack]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jsBrowserProductionWebpack" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -332,6 +396,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.todoCompose:desktop [run]" />
+        <item itemvalue="Gradle.todoCompose:web [jsBrowserProductionWebpack]" />
+        <item itemvalue="Gradle.todoCompose:web [compileKotlinJs]" />
         <item itemvalue="Gradle.untitled [run]" />
         <item itemvalue="Gradle.untitled [runDistributable]" />
       </list>

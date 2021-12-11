@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../web/build/classes/kotlin/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../web/src/test/kotlin" />
+    <content url="file://$MODULE_DIR$/../../../web/src/test/resources" />
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="todoCompose.web.main" scope="TEST" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../web/build/classes/kotlin/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="todoCompose.common.jsMain" scope="TEST" />
+    <orderEntry type="module" module-name="todoCompose.common.commonMain" scope="TEST" />
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../web/build/processedResources/js/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.5.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.compose.web:web-core-js:klib:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.compose.runtime:runtime-js:klib:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.decompose:decompose-js:klib:0.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:klib:1.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.30" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-js:klib:0.16.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.compose.web:internal-web-core-runtime-js:klib:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.essenty:lifecycle-js:klib:0.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.essenty:state-keeper-js:klib:0.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.essenty:instance-keeper-js:klib:0.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.essenty:back-pressed-js:klib:0.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.essenty:utils-internal-js:klib:0.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.arkivanov.essenty:parcelable-js:klib:0.2.2" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="todoCompose.web.main" />
+</module>
